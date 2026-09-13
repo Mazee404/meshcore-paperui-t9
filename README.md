@@ -1,7 +1,7 @@
-<h1 align="center">MeshCore T5 ePaper S3 Pro</h1>
+<h1 align="center">MeshCore for Waveshare ESP32-S3-ePaper-1.54 touch w Seeed Wio-SX1262 and T9 keyboard</h1>
 
 <p align="center">
-  A paper-like handheld MeshCore communicator for the LilyGo T5 ePaper S3 Pro
+  A paper-like handheld MeshCore communicator for the Waveeshare ESP32-S3-ePaper-1.54 touch w Seeed Wio-SX1262 and t9 keyboard
 </p>
 
 <p align="center">
