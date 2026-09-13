@@ -22,7 +22,7 @@
   <img src="./assets/sensors.jpeg" alt="Sensors screen" width="19%" />
 </p>
 
-MeshCore T5 ePaper S3 Pro turns the LilyGo T5 ePaper S3 Pro into a dedicated long-range mesh messaging device with a calm, readable e-ink interface.
+MeshCore for Waveshare ESP32-S3-ePaper-1.54 touch w Seeed Wio-SX1262 and T9 keyboard into a dedicated long-range mesh messaging device with a calm, readable e-ink interface.
 It is built for people who want simple off-grid communication, strong battery-friendly readability, and a UI that feels more like paper than a phone.
 It can be used as a standalone mesh device or as a companion-connected MeshCore node.
 
@@ -30,7 +30,7 @@ An SD card is required for normal use.
 
 ## Why This Device
 
-- Readable in daylight with an always-on e-paper feel
+- Readable with an always-on e-paper feel
 - Built for low-distraction messaging and status checking
 - Long-range LoRa mesh communication without relying on normal internet access
 - Purpose-built interface instead of a generic developer demo
@@ -85,6 +85,7 @@ The interface is designed around the strengths of e-paper:
 
 The easiest way to install the latest build is through the web flasher:
 
+NOT WORKING still in progres
 [Open Web Flasher](https://dz0ny.github.io/meshcore-t5-epaper-s3-pro/)
 
 Use Chrome or Edge and connect the device with a USB data cable.
@@ -107,21 +108,22 @@ uvx platformio run -e t5-epaper -t upload
 
 ## Hardware
 
-- LilyGo T5 ePaper S3 Pro
+- Waveshare 1.54inch e-Paper AIoT Development Board
 - ESP32-S3
-- 4.7" e-paper display
+- 1,54" e-paper display
 - SX1262 LoRa radio
 - Capacitive touch
 - GPS support
-- On-device storage with SPIFFS and SD card
+- On-device storage with SPIFFS, SD card, speaker and Mic
 
-Product page: [lilygo.cc/en-us/products/t5-e-paper-s3-pro](https://lilygo.cc/en-us/products/t5-e-paper-s3-pro)
-
+Product page:
+https://www.waveshare.com/esp32-s3-epaper-1.54.htm?sku=34211
+https://www.seeedstudio.com/Wio-SX1262-for-XIAO-p-6379.html
 ## Project Focus
 
-This project is not trying to be a general-purpose tablet UI.
+This project is not trying to be a general-purpose UI.
 It is a focused mesh communicator with a paper-like display, tuned for clarity, simplicity, and practical field use.
 
 ## Repository
 
-- GitHub: [Mazee404/meshcore-e-paperui-t9](https://github.com/Mazee404/meshcore-paperui-t9)
+- GitHub: [Mazee404/meshcore-paperui-t9](https://github.com/Mazee404/meshcore-paperui-t9)
