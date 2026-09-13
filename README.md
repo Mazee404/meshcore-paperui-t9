@@ -124,4 +124,4 @@ It is a focused mesh communicator with a paper-like display, tuned for clarity, 
 
 ## Repository
 
-- GitHub: [dz0ny/meshcore-t5-epaepr-pro](https://github.com/dz0ny/meshcore-t5-epaepr-pro)
+- GitHub: [Mazee404/meshcore-e-paperui-t9](https://github.com/Mazee404/meshcore-paperui-t9)
